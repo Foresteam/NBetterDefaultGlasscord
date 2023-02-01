@@ -1,10 +1,10 @@
 /**
- * @name BetterDefaultGlasscord
+ * @name NBetterDefaultGlasscord
  * @description Updated Version To AryToNeX's Glasscord Example Theme.
- * @author Leeprky#2063
+ * @author Foresteam
  * @version 2.1.0
- * @source https://github.com/leeprky/BetterDefaultGlasscord
- * @updateUrl https://github.com/leeprky/BetterDefaultGlasscord/blob/main/BetterDefaultGlasscord.theme.css
+ * @source https://github.com/Foresteam/NBetterDefaultGlasscord
+ * @updateUrl https://github.com/Foresteam/NBetterDefaultGlasscord/blob/main/BetterDefaultGlasscord.theme.css
  * @authorId 224524143482241035
  * @invite Ff3rqAYB89
  * @donate https://www.paypal.com/paypalme/leeparkinson22
@@ -50,18 +50,66 @@
 @import "https://leeprky.github.io/themes/BetterDefaultGlasscord/version.css";
 @import url(https://leeprky.github.io/themes/BetterDefaultGlasscord/BetterDefaultGlasscord.css);
 
+
+/*   _____ _    _  _____ _______ ____  __  __ _____ ______      _______ _____ ____  _   _ 
+  / ____| |  | |/ ____|__   __/ __ \|  \/  |_   _|___  /   /\|__   __|_   _/ __ \| \ | |
+ | |    | |  | | (___    | | | |  | | \  / | | |    / /   /  \  | |    | || |  | |  \| |
+ | |    | |  | |\___ \   | | | |  | | |\/| | | |   / /   / /\ \ | |    | || |  | | . ` |
+ | |____| |__| |____) |  | | | |__| | |  | |_| |_ / /__ / ____ \| |   _| || |__| | |\  |
+  \_____|\____/|_____/   |_|  \____/|_|  |_|_____/_____/_/    \_\_|  |_____\____/|_| \_|
+                                                                                        
+                                                                                        */
+/*Side panel*/
+.scroller-3X7KbA {
+   background-color: var(--nglasscord-accent2) !important;
+}
+/*User panel*/
+.container-YkUktl {
+   background-color: transparent !important;
+}
+/*Chat textbox*/
+.scrollableContainer-15eg7h {
+   background-color: transparent !important;
+}
+.channelTextArea-1FufC0 {
+   background-color: var(--nglasscord-accent2);
+}
+/*Chat background*/
+main {
+   background-color: var(--nglasscord-accent) !important;
+}
+/*Search bar*/
+.searchBar-2aylmZ {
+   background-color: transparent !important;
+}
+.searchBar-2aylmZ {
+   background-color: var(--nglasscord-accent2) !important;
+}
+/*Mentions*/
+.wrapper-1ZcZW- {
+   color: var(--alt-color);
+}
+/*Main menu cards*/
+.wrapper-2RrXDg {
+   --background-modifier-hover: var(--alt-color3) !important;
+/*   background-color: var(--nglasscord-accent3) !important;*/
+}
+:root {
+   --channeltextarea-background: transparent !important;
+   --background-secondary-alt: var(--nglasscord-accent) !important;
+}
+
 /*
 █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
 █▄▄ █▄█ █░▀█ █▀░ █ █▄█
 */
-
 :root{ 
    --background-accent: var(--glasscord-accent); 
    --background-floating: var(--glasscord-floating); 
+   --background-primary: rgba(0, 0, 0, .4) !important;
 }
-
 body{background-color: transparent;}
-#app-mount{border-radius: 12px;} /* Default "12px" - Higher = More Round */
+#app-mount{border-radius: 0;} /* Default "12px" - Higher = More Round */
 
 :root {
    --default-gradient: 315deg, rgba(var(--alt-color), 0.4) 0%, rgba(var(--alt-color), 0.8) 74%;
@@ -86,9 +134,9 @@ body{background-color: transparent;}
 /* █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █ █▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
    █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ █ ▄█ █▀█ ░█░ █ █▄█ █░▀█ */
 
-   --alt-color: 57, 131, 210; /* Blurple Colour */
-   --alt-color2: rgba(var(--alt-color), 0.6); 
-   --alt-color3: 211;
+   --alt-color: rgba(150, 50, 255); /* Blurple Colour */
+   --alt-color2: rgba(90, 30, 150, .8); 
+   --alt-color3: rgba(150, 50, 255, .3);
    --spotify-color: rgba(var(--alt-color), 0.6); 
 
    --version-display: flex;
@@ -111,9 +159,17 @@ body{background-color: transparent;}
 }
 
 .theme-dark {
-   --glasscord-primary: #1a1c1fa2 !important;
-   --glasscord-secondary: #15161ac7 !important;
-   --glasscord-secondary-alt: #16171a75 !important;
+   --nglasscord-accent: rgba(0, 0, 0, 0.05);
+   --nglasscord-accent2: rgba(0, 0, 0, .2);
+   --nglasscord-accent3: rgba(0, 0, 0, .4);
+
+   --background-secondary-alt: #292b2fff;
+   --background-secondary: transparent;
+
+   --glasscord-primary: #1a1c1f70 !important;
+   --glasscord-secondary: var(--nglasscord-accent2) !important;
+/*   --glasscord-secondary-alt: #16171a75 !important;*/
+   --glasscord-secondary-alt: var(--nglasscord-accent) !important;
    --glasscord-accent: var(--alt-color2) !important;
    --glasscord-tertiary: #10111380 !important;
    --glasscord-floating: #101214e8 !important;
@@ -149,20 +205,20 @@ body{background-color: transparent;}
 
 :root {--version: "v2.1.0" !important; --build: "46" !important; --outdated_betterdefaultglasscord-046: none !important}
 
-   /* ---------------------------------------------
-   
-                ███████╗███╗░░██╗██████╗░
-                ██╔════╝████╗░██║██╔══██╗
-                █████╗░░██╔██╗██║██║░░██║
-                ██╔══╝░░██║╚████║██║░░██║
-                ███████╗██║░╚███║██████╔╝
-                ╚══════╝╚═╝░░╚══╝╚═════╝░
-                ╚══════╝╚═╝░░╚══╝╚═════╝░
-                     Version 2.1.0
-   
-      --------------------------------------------- */
+/* ---------------------------------------------
 
-      .powercord-toast {
-         border-radius: 18px;
-         background-color: transparent;
-     }
+             ███████╗███╗░░██╗██████╗░
+             ██╔════╝████╗░██║██╔══██╗
+             █████╗░░██╔██╗██║██║░░██║
+             ██╔══╝░░██║╚████║██║░░██║
+             ███████╗██║░╚███║██████╔╝
+             ╚══════╝╚═╝░░╚══╝╚═════╝░
+             ╚══════╝╚═╝░░╚══╝╚═════╝░
+                  Version 2.1.0
+
+   --------------------------------------------- */
+
+.powercord-toast {
+   border-radius: 18px;
+   background-color: transparent;
+}

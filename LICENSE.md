@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) 2023 Foresteam.
 Copyright (c) 2021 Lee Parkinson ( Known As leeprky#2063 ).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

@@ -1,7 +1,9 @@
-## BetterDefaultGlasscord (v2.0.0)
+## NBetterDefaultGlasscord (v3.0.0)
 A Discord theme with easy config and sleek user UI and design. With support for multiple clients & glasscord.
 
-![preview](https://i.imgur.com/nuYW1n6.png)
+### WORK IN PROGRESS
+
+![preview](2023-02-01_21-48.webp)
 
 ## How To Install BetterDefaultGlasscord
 
