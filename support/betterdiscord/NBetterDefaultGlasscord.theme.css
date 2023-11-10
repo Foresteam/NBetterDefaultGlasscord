@@ -94,6 +94,10 @@ main {
    --background-modifier-hover: var(--alt-color3) !important;
 /*   background-color: var(--nglasscord-accent3) !important;*/
 }
+/*Channel search bar*/
+.searchBar-jGtisZ {
+   background-color: var(--nglasscord-accent2);
+}
 :root {
    --channeltextarea-background: transparent !important;
    --background-secondary-alt: var(--nglasscord-accent) !important;
@@ -107,6 +111,7 @@ main {
    --background-accent: var(--glasscord-accent); 
    --background-floating: var(--glasscord-floating); 
    --background-primary: rgba(0, 0, 0, .4) !important;
+   --background-tertiary: transparent !important;
 }
 body{background-color: transparent;}
 #app-mount{border-radius: 0;} /* Default "12px" - Higher = More Round */
@@ -155,7 +160,7 @@ body{background-color: transparent;}
    --background-modifier-accent: rgba(var(--alt-color), 0.1);   
 
    --background-mentioned: rgba(var(--alt-color), 0.1); 
-   --background-mentioned-hover: rgba(var(--alt-color), 0.2); 
+   --background-mentioned-hover: rgba(var(--alt-color), 0.2);
 }
 
 .theme-dark {

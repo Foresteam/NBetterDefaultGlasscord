@@ -98,6 +98,8 @@ body{background-color: transparent;}
 
    --background-mentioned: rgba(var(--alt-color), 0.1); 
    --background-mentioned-hover: rgba(var(--alt-color), 0.2); 
+
+   --background-tertiary: var(--glasscord-tertiary) !important;
 }
 
 .theme-dark {
