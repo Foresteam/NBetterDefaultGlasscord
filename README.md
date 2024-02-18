@@ -3,6 +3,8 @@ A Discord theme with easy config and sleek user UI and design. With support for 
 
 ### WORK IN PROGRESS
 
+Note: this may sometimes break, or look ugly (just like now). I do update it from time to time and fix some things, though.
+
 ![preview](2023-02-01_21-48.webp)
 
 ## How To Install BetterDefaultGlasscord
