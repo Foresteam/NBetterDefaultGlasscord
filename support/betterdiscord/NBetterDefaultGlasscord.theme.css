@@ -107,7 +107,7 @@ main {
 █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
 █▄▄ █▄█ █░▀█ █▀░ █ █▄█
 */
-:root{ 
+* { 
    --background-accent: var(--glasscord-accent); 
    --background-floating: var(--glasscord-floating); 
    --background-primary: rgba(0, 0, 0, .4) !important;
@@ -161,6 +161,13 @@ body{background-color: transparent;}
 
    --background-mentioned: rgba(var(--alt-color), 0.1); 
    --background-mentioned-hover: rgba(var(--alt-color), 0.2);
+
+   --background-floating: var(--background-tertiary) !important;
+}
+
+/* fix top bar color  */
+* {
+   --__header-bar-background: var(--background-tertiary) !important;
 }
 
 .theme-dark {
