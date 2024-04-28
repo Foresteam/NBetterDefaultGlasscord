@@ -98,6 +98,10 @@ main {
 .searchBar-jGtisZ {
    background-color: var(--nglasscord-accent2);
 }
+/*Subtitle bar color (instead of the elevation)*/
+.subtitleContainer_f50402 {
+   background-color: var(--background-primary);
+}
 :root {
    --channeltextarea-background: transparent !important;
    --background-secondary-alt: var(--nglasscord-accent) !important;
@@ -168,6 +172,7 @@ body{background-color: transparent;}
 /* fix top bar color  */
 * {
    --__header-bar-background: var(--background-tertiary) !important;
+   --elevation-low: none !important;
 }
 
 .theme-dark {
